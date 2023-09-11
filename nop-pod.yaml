@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nop
+  labels:
+    name: nop1
+    purpose: demo
+spec:
+  containers:
+    - env:
+        - name: nop1
+      image: nop1
+      name: nop
+      ports:
+        - containerPort: 5000
+          protocol: TCP  
