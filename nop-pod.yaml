@@ -9,7 +9,7 @@ spec:
   containers:
     - env:
         - name: nop1
-      image: nop1
+      image: da4b906324f0
       name: nop
       ports:
         - containerPort: 5000
